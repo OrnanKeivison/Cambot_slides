@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.124.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+<title>My presentation</title>
+
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><link rel="stylesheet" href="/reveal-js/dist/reset.css">
+<link rel="stylesheet" href="/reveal-js/dist/reveal.css"><link rel="stylesheet" href="/reveal-js/dist/theme/black.css" id="theme">
+<link rel="stylesheet" href="/highlight-js/default.min.css">
+  </head>
+  <body>
+    
+    <div class="reveal">
+      <div class="slides">
+  
+
+    <section><h1 id="heading">📷🤖</h1>
+<h1 id="cambot">CAMBOT</h1>
+<h6 id="módulo-de-identificação-de-vítimas-para-a-olimpíada-brasileira-de-robótica">Módulo de identificação de vítimas para a Olimpíada Brasileira de Robótica.</h6>
+</section><section>
+<h1 id="introdução">INTRODUÇÃO</h1>
+<ul>
+<li>Robótica no Brasil;</li>
+<li>Olimpíada Brasileira de Robótica;</li>
+</ul>
+</section><section>
+<h1 id="introdução-1">INTRODUÇÃO</h1>
+<ul>
+<li>Manual de regras;</li>
+<li>Sala de resgate;
+<img src="pista.png" alt="pista"></li>
+</ul>
+</section><section>
+<h1 id="introdução-2">INTRODUÇÃO</h1>
+<ul>
+<li>Estratégias já existentes;</li>
+<li>Módulo de visão computacional</li>
+</ul>
+<img src="sala3.png" alt="sala3" width="400"/>
+</section><section>
+<h1 id="problemática">PROBLEMÁTICA</h1>
+<ul>
+<li>Falhas na detecção das estratégias existentes;</li>
+<li>Melhorar os resultados.</li>
+</ul>
+<img src="sala3.png" alt="sala3" width="400"/>
+</section><section>
+<h1 id="objetivos">OBJETIVOS</h1>
+<ul>
+<li>Compreender e utilizar algoritmos de visão computacional;</li>
+<li>Adaptar e calibrar algoritmos;</li>
+<li>Desenvolver o software para o robô;</li>
+<li>Enviar dados de coordenadas ao Arduino.</li>
+</ul>
+</section><section>
+<h1 id="metodologia">METODOLOGIA</h1>
+<ul>
+<li>Estudo e testes das tecnologias a serem utilizadas.
+<img src="tecno.png" alt="tecnologias"></li>
+</ul>
+</section><section>
+<h1 id="metodologia-1">METODOLOGIA</h1>
+<ul>
+<li>Desenvolver os algoritmos para testes com imagens e vídeos.
+<img src="esferas.png" alt="esferas"></li>
+</ul>
+</section><section>
+<h1 id="metodologia-2">METODOLOGIA</h1>
+<ul>
+<li>Estabelecer uma conexão para o módulo e o robô.
+<img src="hardware.png" alt="casos de uso"></li>
+</ul>
+</section><section>
+<h1 id="metodologia-3">METODOLOGIA</h1>
+<ul>
+<li>Enviar dados de coordenadas ao Arduino.
+<img src="diagramauso.png" alt="casos de uso"></li>
+</ul>
+</section><section>
+<h2 id="disciplinas-integradas">DISCIPLINAS INTEGRADAS</h2>
+<ul>
+<li>Fundamentos de lógica e algoritmos;</li>
+<li>Programação estruturada e orientada ao objeto;</li>
+<li>Eletricidade instrumental;</li>
+<li>Eletronica analógica e digital;</li>
+<li>Organização e manutenção de computadores.</li>
+</ul>
+</section><section>
+<h1 id="cronograma">CRONOGRAMA</h1>
+<p><img src="crono.png" alt="cronograma"></p>
+</section><section>
+<h2 id="considerações-finais">CONSIDERAÇÕES FINAIS</h2>
+</section>
+
+  
+
+
+</div>
+      
+
+    </div>
+<script type="text/javascript" src=/reveal-hugo/object-assign.js></script>
+
+
+<script src="/reveal-js/dist/reveal.js"></script>
+
+
+  <script type="text/javascript" src="/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="/reveal-js/plugin/zoom/zoom.js"></script>
+  
+  <script type="text/javascript" src="/reveal-js/plugin/notes/notes.js"></script>
+  
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = {};
+  var revealHugoPageParams = {};
+
+  var revealHugoPlugins = {
+    
+    plugins: [RevealMarkdown,RevealHighlight,RevealZoom,RevealNotes]
+  };
+
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams),
+    camelize(revealHugoPlugins));
+
+  Reveal.initialize(options);
+</script>
+
+
+
+
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+
+
+
+    
+    
+  </body>
+</html>
